@@ -2,7 +2,7 @@
 #include "Templates.h"
 //#include "Source.cpp"
 //#include "FuncMassive.cpp"
-#include "massiv.cpp"
+//#include "massiv.cpp"
 
 void main()
 {

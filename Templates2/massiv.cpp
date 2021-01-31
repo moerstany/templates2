@@ -1,4 +1,5 @@
-#include "Templates.h"
+//#include "Templates.h"
+#include "Functions.cpp"
 
 template <typename T>
 void Print(T arr[STROK][STOL], const int n, const int m)
