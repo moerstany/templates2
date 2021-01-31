@@ -1,7 +1,7 @@
-#include <iostream>
+п»ї#include <iostream>
 using namespace std;
 
-// если мы ставим количество строк равное 1, то получаем одномерный массив
+// РµСЃР»Рё РјС‹ СЃС‚Р°РІРёРј РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє СЂР°РІРЅРѕРµ 1, С‚Рѕ РїРѕР»СѓС‡Р°РµРј РѕРґРЅРѕРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ
 
 // nikak ne poluchaetcya sortirovky cdelat s voskresenya s kodom cidela?  pro dvumernue massivi: net sortirovki/ 
 
@@ -55,72 +55,72 @@ void main()
 
 	const int n = STROK; const int m = STOL;
 
-	cout << "\t Массив типа INT" << "\n";
+	cout << "\t РњР°СЃСЃРёРІ С‚РёРїР° INT" << "\n";
 	Massiv(arr1, STROK, STOL); cout << "\n\n";
 	PrintMassiv(arr1, STROK, STOL); cout << "\n\n";
 
-	cout << "\t Cортируем числа в массиве типа INT " << " "; cout << "\n";
+	cout << "\t CРѕСЂС‚РёСЂСѓРµРј С‡РёСЃР»Р° РІ РјР°СЃСЃРёРІРµ С‚РёРїР° INT " << " "; cout << "\n";
 	MassivSort(arr1, STROK, STOL); cout << "\n";
 	//PrintSort (arr1, STROK, STOL); cout << "\n";
 
 
-	cout << "\t Сумма чисел в массиве типа INT " << " ";
+	cout << "\t РЎСѓРјРјР° С‡РёСЃРµР» РІ РјР°СЃСЃРёРІРµ С‚РёРїР° INT " << " ";
 	cout << MassivSum(arr1, STROK, STOL); cout << "\n";
 
 
-	cout << "\t среднее значение в массиве типа INT " << " ";
+	cout << "\t СЃСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ С‚РёРїР° INT " << " ";
 	cout << MassivAVG(arr1, STROK, STOL); cout << "\n";
 
-	cout << "\t Максимальное значение массива типа INT " << " ";
+	cout << "\t РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР° С‚РёРїР° INT " << " ";
 	cout << MassivMax(arr1, STROK, STOL); cout << "\n";
 
-	cout << "\t Минимальное значение  массива типа INT " << " ";
+	cout << "\t РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ  РјР°СЃСЃРёРІР° С‚РёРїР° INT " << " ";
 	cout << MassivMin(arr1, STROK, STOL);  cout << "\n";
 
 	cout << "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" << endl;
 
-	cout << "\t Массив типа DOUBLE" << "\n";
+	cout << "\t РњР°СЃСЃРёРІ С‚РёРїР° DOUBLE" << "\n";
 	Massiv(arr2, STROK, STOL); cout << "\n\n";
 	PrintMassiv(arr2, STROK, STOL); cout << "\n\n";
 
-	cout << "\t Cортируем числа в массиве " << " "; cout << "\n";
+	cout << "\t CРѕСЂС‚РёСЂСѓРµРј С‡РёСЃР»Р° РІ РјР°СЃСЃРёРІРµ " << " "; cout << "\n";
 	//MassivSort(arr2, STROK, STOL); cout << "\n";
 
 
-	cout << "\t Сумма чисел в массиве " << " ";
+	cout << "\t РЎСѓРјРјР° С‡РёСЃРµР» РІ РјР°СЃСЃРёРІРµ " << " ";
 	cout << MassivSum(arr2, STROK, STOL); cout << "\n";
 
 
-	cout << "\t среднее значение в массиве " << " ";
+	cout << "\t СЃСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ " << " ";
 	cout << MassivAVG(arr2, STROK, STOL); cout << "\n";
 
-	cout << "\t Максимальное значение массива  " << " ";
+	cout << "\t РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР°  " << " ";
 	cout << MassivMax(arr2, STROK, STOL); cout << "\n";
 
-	cout << "\t Минимальное значение  массива  " << " ";
+	cout << "\t РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ  РјР°СЃСЃРёРІР°  " << " ";
 	cout << MassivMin(arr2, STROK, STOL);  cout << "\n";
 	cout << "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" << endl;
 
 
-	cout << "\t Массив типа CHAR" << "\n";
+	cout << "\t РњР°СЃСЃРёРІ С‚РёРїР° CHAR" << "\n";
 	Massiv(arr3, STROK, STOL); cout << "\n\n";
 	PrintMassiv(arr3, STROK, STOL); cout << "\n\n";
 
-	cout << "\t Cортируем числа в массиве " << " "; cout << "\n";
+	cout << "\t CРѕСЂС‚РёСЂСѓРµРј С‡РёСЃР»Р° РІ РјР°СЃСЃРёРІРµ " << " "; cout << "\n";
 	//MassivSort(arr3, STROK, STOL); cout << "\n";
 
 
-	cout << "\t Сумма чисел в массиве типа" << " ";
+	cout << "\t РЎСѓРјРјР° С‡РёСЃРµР» РІ РјР°СЃСЃРёРІРµ С‚РёРїР°" << " ";
 	cout << MassivSum(arr3, STROK, STOL); cout << "\n";
 
 
-	cout << "\t среднее значение в массиве " << " ";
+	cout << "\t СЃСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ " << " ";
 	cout << MassivAVG(arr3, STROK, STOL); cout << "\n";
 
-	cout << "\t Максимальное значение массива  " << " ";
+	cout << "\t РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР°  " << " ";
 	cout << MassivMax(arr3, STROK, STOL); cout << "\n";
 
-	cout << "\t Минимальное значение  массива  " << " ";
+	cout << "\t РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ  РјР°СЃСЃРёРІР°  " << " ";
 	cout << MassivMin(arr3, STROK, STOL);  cout << "\n";
 	cout << "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" << endl;
 
